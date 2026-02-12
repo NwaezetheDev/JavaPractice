@@ -159,7 +159,7 @@ public class BankAccountSimulator {
             if (sc.hasNextDouble()) {
                 value = sc.nextDouble();
                 sc.nextLine(); // clear newline
-                if (value > 0) return value;
+                if (value > 0) return value;  
             } else {
                 sc.nextLine(); // clear bad input
             }
